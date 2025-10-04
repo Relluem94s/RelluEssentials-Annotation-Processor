@@ -10,6 +10,19 @@
     <packaging>jar</packaging>
 
     <name>RelluEssentials Command Processor</name>
+    
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Relluem94s Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Relluem94s/RelluEssentials-Annotation-Processor</url>
+        </repository>
+    </distributionManagement>
+    <scm>
+        <connection>scm:git:git@github.com:Relluem94s/RelluEssentials-Annotation-Processor.git</connection>
+        <developerConnection>scm:git:git@github.com:Relluem94s/RelluEssentials-Annotation-Processor.git</developerConnection>
+        <url>https://github.com/Relluem94s/RelluEssentials-Annotation-Processor</url>
+    </scm>
 
     <properties>
         <java.version>17</java.version>
