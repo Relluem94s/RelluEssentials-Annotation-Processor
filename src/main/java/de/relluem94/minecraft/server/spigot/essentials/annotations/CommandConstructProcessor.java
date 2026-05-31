@@ -13,7 +13,7 @@ import javax.tools.Diagnostic;
 import java.util.Set;
 
 @SupportedAnnotationTypes("de.relluem94.minecraft.server.spigot.essentials.annotations.CommandName")
-@SupportedSourceVersion(SourceVersion.RELEASE_17)
+@SupportedSourceVersion(SourceVersion.RELEASE_21)
 public class CommandConstructProcessor extends AbstractProcessor {
 
     @Override
